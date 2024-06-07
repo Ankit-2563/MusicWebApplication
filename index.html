@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Express - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- <img src="logo.svg" alt=""> -->
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img width="35" class="invert" src="close.svg" alt="" srcset="" />
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img src="logo.png" alt="" /><span>Music Express</span>
+          </div>
+
+          <ul>
+            <li><img class="invert" src="home.svg" alt="Home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="Search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="library.svg" alt="" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a
+                href="https://www.instagram.com/https_._manish?igsh=eWhmaWJwYmhkc3By"
+                target="_blank"
+                ><span>Insagram</span></a
+              >
+            </div>
+            <div>
+              <a
+                href="https://www.facebook.com/manishprajapati366?mibextid=jtWzXIAxfKx1VBOC"
+                target="_blank"
+                ><span>Facebook</span></a
+              >
+            </div>
+            <div>
+              <a
+                href="https://www.youtube.com/@Journey_With_Manish/featured"
+                target="_blank"
+                ><span>Youtube</span></a
+              >
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/manish-prajapati-454187250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><span>Linkdln</span></a
+              >
+            </div>
+            <div>
+              <a
+                href="https://mail.google.com/mail/u/1/?ogbl#inbox"
+                target="_blank"
+                ><span>Gmail</span></a
+              >
+            </div>
+          </div>
+          <div class="develper"><span>Developed by Manish Prajapati</span></div>
+        </div>
+      </div>
+
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="menucontainer">
+              <img width="40" class="invert menu" src="menu.svg" alt="" />
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M15 6L9 12L15 18"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                  stroke-miterlimit="16"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M9.00005 6L15 12L9 18"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                  stroke-miterlimit="16"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="button">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylist">
+          <h1>Music Express Playlists</h1>
+          <div class="cardContainer">
+            <!-- /* This is using for data attributes *\ -->
+            <div data-folder="Hindi" class="card">
+              <div class="play">
+                <svg
+                  fill="#000000"
+                  height="50px"
+                  width="50px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-170.1 -170.1 550.20 550.20"
+                  xml:space="preserve"
+                  stroke="#000000"
+                  stroke-width="11.55"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(2.1000000000000085,2.1000000000000085), scale(0.98)"
+                  >
+                    <rect
+                      x="-170.1"
+                      y="-170.1"
+                      width="550.20"
+                      height="550.20"
+                      rx="275.1"
+                      fill="#12f315"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="2.9400000000000004"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M179.07,105L30.93,210V0L179.07,105z"></path>
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="https://apksos.com/storage/images/hindi/music/hindisongs/hindi.music.hindisongs_1.png"
+                alt=""
+              />
+              <h2>Hindi Songs</h2>
+              <p>This is Populor Songs for everyone</p>
+            </div>
+
+            <!-- This is data Attribute -->
+            <div data-folder="Bhakti" class="card">
+              <div class="play">
+                <svg
+                  fill="#000000"
+                  height="50px"
+                  width="50px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-170.1 -170.1 550.20 550.20"
+                  xml:space="preserve"
+                  stroke="#000000"
+                  stroke-width="11.55"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(2.1000000000000085,2.1000000000000085), scale(0.98)"
+                  >
+                    <rect
+                      x="-170.1"
+                      y="-170.1"
+                      width="550.20"
+                      height="550.20"
+                      rx="275.1"
+                      fill="#12f315"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="2.9400000000000004"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M179.07,105L30.93,210V0L179.07,105z"></path>
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="https://play-lh.googleusercontent.com/1Q79UrEOcHH_NJ49mVwXDwfIYrCDSTyYAhdzRpcJdwTYJ1golzWrgqiz1aIPjgAPN_A=w240-h480-rw"
+                alt=""
+              />
+              <h2>Bhakti Songs</h2>
+              <p>This Songs Dedicated to God</p>
+            </div>
+
+            <!-- This is data Attribute -->
+            <div data-folder="Marathi" class="card">
+              <div class="play">
+                <svg
+                  fill="#000000"
+                  height="50px"
+                  width="50px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-170.1 -170.1 550.20 550.20"
+                  xml:space="preserve"
+                  stroke="#000000"
+                  stroke-width="11.55"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(2.1000000000000085,2.1000000000000085), scale(0.98)"
+                  >
+                    <rect
+                      x="-170.1"
+                      y="-170.1"
+                      width="550.20"
+                      height="550.20"
+                      rx="275.1"
+                      fill="#12f315"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="2.9400000000000004"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M179.07,105L30.93,210V0L179.07,105z"></path>
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="https://yt3.googleusercontent.com/ytc/AIf8zZT-tgJXFf6YZkH2OOLZQa5GhgVSZWBz46WWN4ZKWQ=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <h2>Marathi Songs</h2>
+              <p>This is Maharashtra Love</p>
+            </div>
+
+            <!-- This is data Attribute -->
+            <div data-folder="Bhojpuri" class="card">
+              <div class="play">
+                <svg
+                  fill="#000000"
+                  height="50px"
+                  width="50px"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-170.1 -170.1 550.20 550.20"
+                  xml:space="preserve"
+                  stroke="#000000"
+                  stroke-width="11.55"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(2.1000000000000085,2.1000000000000085), scale(0.98)"
+                  >
+                    <rect
+                      x="-170.1"
+                      y="-170.1"
+                      width="550.20"
+                      height="550.20"
+                      rx="275.1"
+                      fill="#12f315"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="2.9400000000000004"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M179.07,105L30.93,210V0L179.07,105z"></path>
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDTfQ8w6Tj87-DyYl7cOjvCC36UEIZM3zZYHjMq31PZO9iy57uT5luB3LqNtxm4uKRuY&usqp=CAU"
+                alt=""
+              />
+              <h2>Bhojpuri Songs</h2>
+              <p>This is Utter Pradesh Love</p>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbuttuns">
+                <img id="previous" src="previous.svg" alt="" />
+                <img id="play" src="playsong.svg" alt="" />
+                <img id="next" src="next.svg" alt="" />
+              </div>
+              <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img width="25" src="volume.svg" alt="" />
+                  <div class="range">
+                    <input type="range" name="volume" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
